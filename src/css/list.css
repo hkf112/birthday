@@ -1,0 +1,121 @@
+body {
+  background: whitesmoke;
+}
+
+.body {
+  width: 100%;
+  background-color: whitesmoke;
+  padding: 20px 0px;
+}
+.body > .goods {
+  width: 1180px;
+  background-color: white;
+  padding: 0px 10px;
+  box-sizing: border-box;
+}
+.body > .goods > .goods-public {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.body > .goods > .goods-public > p {
+  font-size: 13px;
+  font-weight: 800;
+  margin-right: 30px;
+  margin-top: 15px;
+}
+.body > .goods > .goods-public > ol {
+  flex: 1;
+  display: flex;
+  font-size: 13px;
+  color: #666;
+  flex-wrap: wrap;
+}
+.body > .goods > .goods-public > ol > li {
+  margin-top: 15px;
+  margin-right: 10px;
+  padding: 0px 5px;
+}
+.body > .goods > .goods-public > ol > li:hover {
+  cursor: pointer;
+}
+.body > .goods > .goods-public > ol > li.active {
+  background-color: skyblue;
+}
+.body > .body-goods {
+  margin-top: 20px;
+  width: 1180px;
+}
+.body > .body-goods > .list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.body > .body-goods > .list > li:hover {
+  border: 1px solid red;
+}
+.body > .body-goods > .list > li:hover > .car {
+  display: flex;
+}
+.body > .body-goods > .list > li {
+  width: 285px;
+  height: 328px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 30px 10px 10px 10px;
+  margin-bottom: 20px;
+}
+.body > .body-goods > .list > li .imgbox {
+  width: 165px;
+  height: 165px;
+}
+.body > .body-goods > .list > li .imgbox > img {
+  width: 165px;
+  height: 165px;
+}
+.body > .body-goods > .list > li > h3 {
+  margin-top: 10px;
+  font-size: 16px;
+  columns: #666666;
+  overflow: hidden;
+  width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.body > .body-goods > .list > li > p {
+  font-size: 14px;
+  color: red;
+  margin-top: 10px;
+}
+.body > .body-goods > .list > li > p > span {
+  color: #ccc;
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 12px;
+}
+.body > .body-goods > .list > li > .car {
+  display: flex;
+  padding: 0px 10px;
+  margin-top: 20px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  color: red;
+  border: 1px solid red;
+  font-size: 12px;
+  display: none;
+}
+.body > .body-goods > .list > li > .car > span {
+  margin-left: 10px;
+}
+.body > .body-goods > .list > li > .car:hover {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=list.css.map */

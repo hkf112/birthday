@@ -1,0 +1,225 @@
+.title-box {
+  width: 100%;
+  border-bottom: 1px solid #000;
+  margin-top: 20px;
+}
+.title-box > h3 {
+  width: 1180px;
+  height: 50px;
+}
+.title-box > h3 > p {
+  width: 150px;
+  height: 50px;
+  color: white;
+  display: flex;
+  background-color: #333333;
+  justify-content: center;
+  align-items: center;
+}
+.title-box > h3 > p > i {
+  margin-right: 10px;
+}
+.title-box > h3 > p:hover {
+  cursor: pointer;
+}
+.title-box > i {
+  margin: 0px 30px 5px 0px;
+}
+
+.body-box {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.body-box > .body {
+  width: 1180px;
+  display: flex;
+}
+.body-box > .body .box {
+  width: 450px;
+  height: 550px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.body-box > .body .box .show {
+  width: 450px;
+  height: 450px;
+}
+.body-box > .body .box .show > img {
+  width: 100%;
+  height: 100%;
+}
+.body-box > .body .box .list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex: 1;
+  height: 100px;
+}
+.body-box > .body .box .list > p {
+  margin: 0px 10px;
+  width: 88px;
+  height: 88px;
+}
+.body-box > .body .box .list > p > img {
+  width: 88px;
+  height: 88px;
+}
+.body-box > .body .box .enlarge {
+  position: absolute;
+  left: 105%;
+  width: 500px;
+  height: 500px;
+  background-size: 800px 800px;
+  background-position: 0px 0px;
+  display: none;
+}
+.body-box > .body > .bbody-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+.body-box > .body > .bbody-right > h3 {
+  font-size: 24px;
+  font-weight: 800;
+  padding: 10px 0px 10px;
+}
+.body-box > .body > .bbody-right > h4 span {
+  display: inline-block;
+  margin-right: 10px;
+}
+.body-box > .body > .bbody-right > p {
+  display: flex;
+  color: #ccc;
+  font-size: 13px;
+}
+.body-box > .body > .bbody-right > p > b {
+  margin-right: 10px;
+}
+.body-box > .body > .bbody-right > p > i {
+  color: red;
+  font-weight: 800;
+  margin: 0px 10px;
+}
+.body-box > .body > .bbody-right > p > strong {
+  display: flex;
+}
+.body-box > .body > .bbody-right > p > strong > span {
+  margin-left: 20px;
+}
+.body-box > .body > .bbody-right > ul {
+  margin-top: 20px;
+  display: flex;
+}
+.body-box > .body > .bbody-right > ul > li {
+  padding: 10px 20px;
+  margin-right: 20px;
+  border: 1px solid #ccc;
+  background: #f4f4f4;
+}
+.body-box > .body > .bbody-right > ul > li.active {
+  background: #ccc;
+  border: 1px solid #333;
+}
+.body-box > .body > .bbody-right > span {
+  border-bottom: 3px solid #fff;
+}
+.body-box > .body > .bbody-right > ol {
+  margin-top: 10px;
+  display: flex;
+  width: 100%;
+  font-size: 13px;
+  height: 50px;
+  align-items: center;
+}
+.body-box > .body > .bbody-right > ol > span {
+  margin-right: 20px;
+}
+.body-box > .body > .bbody-right > ol > li {
+  margin-right: 20px;
+  padding: 5px 10px;
+  background: #f4f4f4;
+  border: 1px solid #fff;
+}
+.body-box > .body > .bbody-right > ol > input {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  margin-right: 20px;
+}
+.body-box > .body > .bbody-right > mark {
+  background: #FFEBC6;
+  border-radius: 5px;
+  color: #F33;
+  box-sizing: border-box;
+  padding: 5px 10px;
+  font-size: 12px;
+}
+.body-box > .body > .bbody-right > mark > i {
+  display: inline-block;
+  margin-right: 10px;
+}
+.body-box > .body > .bbody-right > div > button {
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+}
+.body-box > .body > .bbody-right > div > .car {
+  color: white;
+  background: linear-gradient(180deg, #F33 0, #F63 100%);
+}
+.body-box > .body > .bbody-right > div > .jump {
+  background-color: #FFEBE9;
+  color: #F33;
+}
+
+.mask {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  background-color: black;
+  opacity: 0.5;
+  pointer-events: none;
+  /* display: none; */
+}
+
+.list > p.active {
+  border-bottom: 3px solid #ccc;
+}
+
+.lazyimg {
+  margin-top: 30px;
+  width: 100%;
+}
+.lazyimg > div {
+  width: 1180px;
+  margin: 0 auto;
+}
+.lazyimg > p {
+  width: 1180px;
+  margin: 0 auto;
+}
+
+bbody-right ol > li :hover {
+  cursor: pointer;
+}
+
+.bbody-right .sub:hover {
+  cursor: pointer;
+}
+
+.bbody-right .add:hover {
+  cursor: pointer;
+}
+
+.bbody-right button {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=detail.css.map */

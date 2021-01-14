@@ -1,0 +1,206 @@
+.body-box {
+  width: 100%;
+  background: #f2f2f2;
+  height: 520px;
+  position: relative;
+}
+.body-box > .off {
+  width: 640px;
+  height: 206px;
+  position: relative;
+  top: 50%;
+  transform: translate(50%, -50%);
+}
+.body-box > .off > img {
+  width: 295px;
+  height: 206px;
+}
+.body-box > .off > p {
+  width: 280px;
+  height: 36px;
+  color: #bebebe;
+  font-size: 28px;
+  position: absolute;
+  left: 320px;
+  top: 50px;
+}
+.body-box > .off > a {
+  width: 120px;
+  height: 40px;
+  position: absolute;
+  left: 320px;
+  top: 150px;
+  text-align: center;
+  line-height: 40px;
+  background: #fc673e;
+  font-size: 23px;
+}
+.body-box > .on {
+  width: 1180px;
+  margin-top: 30px;
+  padding-top: 20px;
+  font-size: 14px;
+  color: #333;
+}
+.body-box > .on > ol {
+  width: 100%;
+  height: 47px;
+  display: flex;
+  font-size: 14px;
+  font-weight: 800;
+  color: #333333;
+  text-align: center;
+  align-items: center;
+  padding: 10px 5px;
+  box-sizing: border-box;
+  background: white;
+}
+.body-box > .on > ol > input {
+  margin-right: 10px;
+}
+.body-box > .on > ol > li {
+  line-height: 47px;
+  width: 110px;
+}
+.body-box > .on > ol > .price {
+  background-color: red;
+}
+.body-box > .on > ol > li:nth-of-type(1) {
+  flex: 1;
+}
+.body-box > .on > ol > li:nth-of-type(2) {
+  width: 250px;
+}
+.body-box > .on > p {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  font-weight: 800;
+}
+.body-box > .on > .body-body {
+  align-items: center;
+}
+.body-box > .on > .body-body > li {
+  width: 100%;
+  height: 105px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+}
+.body-box > .on > .body-body > li > input {
+  margin: 0px 20px;
+}
+.body-box > .on > .body-body > li > .imgbox {
+  margin-right: 10px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.body-box > .on > .body-body > li > .imgbox > img {
+  width: 70px;
+  height: 70px;
+  border: 1px solid #ddd;
+  display: block;
+  border-radius: 5px;
+  margin-right: 60px;
+}
+.body-box > .on > .body-body > li > .imgbox > p {
+  font-size: 12px;
+  line-height: 20px;
+  margin-right: 80px;
+  text-align-last: left;
+}
+.body-box > .on > .body-body > li .goods-info {
+  width: 250px;
+}
+.body-box > .on > .body-body > li .price, .body-box > .on > .body-body > li .del, .body-box > .on > .body-body > li .goods {
+  width: 110px;
+}
+.body-box > .on > .body-body > li > .price {
+  color: #ff3333;
+}
+.body-box > .on > .body-body > li > .del {
+  background-color: white;
+}
+.body-box > .on > .body-body > li > button:hover {
+  cursor: pointer;
+  padding: 5px 0px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: white;
+  background: linear-gradient(180deg, #ff3333 0, #ff6633 100%);
+}
+.body-box > .on > .body-body > li > .change {
+  width: 110px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.body-box > .on > .body-body > li > .change > p {
+  border: 1px solid #dddddd;
+  color: #333;
+  width: 30px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+}
+.body-box > .on > .body-body > li > .change > input {
+  width: 30px;
+  height: 20px;
+  text-align: center;
+  border: 1px solid #dddddd;
+}
+.body-box > .on > .body-foot {
+  width: 100%;
+  box-sizing: border-box;
+  height: 70px;
+  margin-top: 15px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px;
+}
+.body-box > .on > .body-foot > .body-fleft {
+  font-size: 14px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+}
+.body-box > .on > .body-foot > .body-fleft > input {
+  margin-right: 10px;
+}
+.body-box > .on > .body-foot > .body-fleft > span {
+  font-weight: normal;
+  margin-left: 20px;
+}
+.body-box > .on > .body-foot > .body-fright {
+  font-style: 14px;
+  width: 400px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.body-box > .on > .body-foot > .body-fright > h3 > span, .body-box > .on > .body-foot > .body-fright > h3 strong {
+  color: #ff3333;
+}
+.body-box > .on > .body-foot > .body-fright > button {
+  margin-left: 15px;
+  width: 160px;
+  height: 50px;
+  border-radius: 5px;
+  background: linear-gradient(180deg, #ff3333 0, #ff6633 100%);
+}
+
+.body-body input, .body-body .sub, .body-body .add, .body-body .del:hover {
+  cursor: pointer;
+}
+
+.body-fleft input:hover {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=car.css.map */

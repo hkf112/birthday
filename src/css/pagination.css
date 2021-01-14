@@ -1,0 +1,53 @@
+.pagination {
+    width: 1138px;
+    height: 80px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination>select {
+    padding: 2px 5px;
+}
+
+.pagination p {
+    padding: 2px 15px;
+    margin: 0px 10px;
+    border: 1px solid #333;
+    /* cursor: default; */
+}
+
+.pagination>.list {
+    display: flex;
+    /* flex: 1; */
+    align-items: center;
+}
+
+.pagination>input {
+    width: 30px;
+    outline: none;
+    padding: 2px;
+    margin: 5px;
+    border: 0px;
+    text-align: center;
+}
+
+.pagination>button {
+    padding: 2px 5px;
+    background: #ccc;
+}
+
+.paginactive {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+.pagination>select {
+    outline: none;
+}
+
+.paginacolor {
+    background: orangered;
+    color: white;
+}

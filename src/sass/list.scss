@@ -1,0 +1,143 @@
+body {
+    background: rgb(245, 245, 245);
+}
+.body {
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+    padding: 20px 0px;
+
+    > .goods {
+        width: 1180px;
+        background-color: white;
+        padding: 0px 10px;
+        box-sizing: border-box;
+        
+
+        > .goods-public {
+            display: flex;
+            align-items: center;
+            padding-bottom: 10px;
+
+            > p {
+                font-size: 13px;
+                font-weight: 800;
+                margin-right: 30px;
+                margin-top: 15px;
+            }
+
+            > ol {
+                flex: 1;
+                display: flex;
+                font-size: 13px;
+                color: #666;
+                flex-wrap: wrap;
+
+                > li {
+                    margin-top: 15px;
+                    margin-right: 10px;
+                    padding: 0px 5px;
+                }
+
+                > li:hover {
+                    cursor: pointer;
+                }
+                
+                > li.active {
+                    background-color: skyblue;
+                }
+            }
+        }
+    }
+
+    > .body-goods {
+        margin-top: 20px;
+        width: 1180px;
+        // display: flex;
+        // height: 500px;
+        // box-sizing: border-box;
+        // flex-wrap: wrap;
+        
+        > .list {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            > li:hover {
+                border:1px solid red;
+            }
+
+            > li:hover > .car {
+                display: flex;
+            }
+
+            > li {
+                width: 285px;
+                height: 328px;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                background-color:white;
+                box-sizing: border-box;
+                padding: 30px 10px 10px 10px;
+                margin-bottom: 20px;
+
+                .imgbox {
+                    width: 165px;
+                    height: 165px;
+
+                    > img {
+                        width: 165px;
+                        height: 165px;
+                    }
+                }
+
+                > h3 {
+                    margin-top: 10px;
+                    font-size: 16px;
+                    columns: #666666;
+                    overflow: hidden;
+                    width: 100%;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                }
+
+                > p {
+                    font-size: 14px;
+                    color:red;
+                    margin-top: 10px;
+
+                    > span {
+                        color:#ccc;
+                        display: inline-block;
+                        margin-left: 10px;
+                        font-size: 12px;
+                    }
+                }
+
+                > .car {
+                    display: flex;
+                    padding: 0px 10px;
+                    margin-top: 20px;
+                    height: 25px;
+                    display: flex;
+                    align-items: center;
+                    color: red;
+                    border: 1px solid red;
+                    font-size: 12px;
+                    display: none;
+                    > span {
+                        margin-left: 10px;
+                    }
+                }
+
+                > .car:hover {
+                    background-color: red;
+                    color: white;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    
+}
