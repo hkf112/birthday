@@ -9,7 +9,6 @@ $(function () {
         $('.login>span').text(name + ',您好')
         $('.sigin').remove()
         $('.nav-right').on('mouseenter', '.login', () =>{
-            console.log(41111)
             $('.login-info').css('display', 'block')
         })
         $('.nav-right').on('mouseleave', '.login', () =>{

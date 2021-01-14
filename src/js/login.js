@@ -59,7 +59,7 @@ $(function () {
                     setCookie('name', data)
                     $('.login').removeData('id')
                     const url = window.sessionStorage.getItem('url')
-                    window.location.href = `./${url ? url : index}.html`
+                    window.location.href = `./${!url ? 'index' : url}.html`
                 }
             })
         }
